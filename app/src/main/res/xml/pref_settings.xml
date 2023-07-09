@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:textColor="@color/colorAccent" android:title="General" android:key="category" app:iconSpaceReserved="false">
+        <SwitchPreference android:title="Full Lock" android:key="app_lock" android:summary="@string/complete_applock" android:defaultValue="false" app:iconSpaceReserved="false"/>
+        <SwitchPreference android:title="@string/fingerprint_auth" android:key="fingure_auth" android:summary="@string/fingerprint_summery" android:defaultValue="true" app:iconSpaceReserved="false"/>
+        <Preference android:title="@string/changepin" android:key="changepin" android:summary="@string/changepinSummery" android:defaultValue="false" app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:textColor="@color/colorAccent" android:title="Permission" android:key="category" app:iconSpaceReserved="false">
+        <SwitchPreference android:title="@string/accessibility_service_title" android:key="app_lock_permission" android:summary="@string/accessibility_service_des" android:defaultValue="false" app:iconSpaceReserved="false"/>
+        <Preference android:title="@string/auto_start_title" android:key="auto_start" android:summary="@string/auto_start_des" android:defaultValue="false" app:iconSpaceReserved="false" app:isPreferenceVisible="true"/>
+        <Preference android:title="Battery Optimization" android:key="battery_optimize" android:summary="Immune from Battery Optimization" android:defaultValue="false" app:iconSpaceReserved="false" app:isPreferenceVisible="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

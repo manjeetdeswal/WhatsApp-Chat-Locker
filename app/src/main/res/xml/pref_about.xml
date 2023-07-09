@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/version" android:key="@string/version_key" android:summary="1.1.1" app:iconSpaceReserved="false"/>
+    <Preference android:title="@string/more_apps" android:key="@string/more_key" android:summary="@string/more_apps_summary" app:iconSpaceReserved="false"/>
+    <Preference android:title="@string/rate_app" android:key="@string/rate_key" android:summary="@string/rate_app_summary" app:iconSpaceReserved="false"/>
+    <Preference android:title="@string/share_app" android:key="@string/share_key" android:summary="@string/share_app_summary" app:iconSpaceReserved="false"/>
+    <Preference android:title="@string/privacy_policy" android:key="@string/privacy_key" android:summary="@string/privacy_summary" app:iconSpaceReserved="false"/>
+    <Preference android:title="@string/feedback" android:key="@string/email_key" android:summary="@string/feedback_summary" app:iconSpaceReserved="false"/>
+</PreferenceScreen>

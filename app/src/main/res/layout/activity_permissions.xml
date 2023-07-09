@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:gravity="center" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginBottom="10dp" android:adjustViewBounds="true"
+        app:tint="@color/black" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Headline" android:textColor="@color/black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:fontFamily="sans-serif-medium"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textStyle="normal" android:textColor="@color/black" android:gravity="center" android:autoLink="web" android:linksClickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:lineSpacingMultiplier="1.25"/>
+    <Button android:id="@+id/btnGrantPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Grant Permissions"/>
+</LinearLayout>

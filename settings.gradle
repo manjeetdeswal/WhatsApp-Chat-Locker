@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+
+        maven { url 'https://jitpack.io' }
+    }
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+rootProject.name = "Whatsapp Chat Lock"
+include ':app'

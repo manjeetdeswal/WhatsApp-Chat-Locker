@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChatLockerForWhatsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="pf_lock_screen">@style/MyLockScreenStyle</item>
+        <item name="pf_next">@style/MyLockNextButtonStyle</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="pf_key_button">@style/MyLockScreenButtonStyle</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyLockScreenStyle">
+        <item name="android:background">@color/black</item>
+
+    </style>
+
+    <style name="MyLockScreenButtonStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+        
+    </style>
+
+    <style name="MyLockNextButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+</resources>
